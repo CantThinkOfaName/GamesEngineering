@@ -1,0 +1,28 @@
+﻿Build started 19/08/2016 18:27:00.
+     1>Project "C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\SDL_Starter\SDL_Starter.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDL_Starter.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SDL\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\hud.h(28): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\hud.h(38): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(56): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(61): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(75): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(97): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(153): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\glitchfindergeneral\documents\it work\4th year\games engineering\monitor\sdl_starter\main.cpp(139): warning C4101: 'e': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\Debug\SI_Threaded.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDL\SDL2-2.0.3\lib\x86" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\Debug\SI_Threaded.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\Debug\SI_Threaded.lib" /MACHINE:X86 Debug\Bullet.obj
+         Debug\Enemy.obj
+         Debug\Entity.obj
+         Debug\Game.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Renderer.obj
+         SDL_Starter.vcxproj -> C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\Debug\SI_Threaded.exe
+     1>Done Building Project "C:\Users\GlitchfinderGeneral\Documents\IT Work\4th Year\Games Engineering\Monitor\SDL_Starter\SDL_Starter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
